@@ -1,0 +1,22 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Economy",
+    "slug": "economy"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "subject": 1,
+    "title": "Economy",
+    "slug": "economy",
+    "overview": "Very (no) useful subject in Belarus",
+    "created": "2020-05-24T21:15:41.116Z"
+  }
+}
+]
